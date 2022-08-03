@@ -45,6 +45,7 @@ namespace Tests
                 PAGE,
                 MAX_RESULTS
             );
+
             IEnumerable<Score> scores = scoresTask.Result;
 
             // Verify that each score's game region matches the provided game region.
